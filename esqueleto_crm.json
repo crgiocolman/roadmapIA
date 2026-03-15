@@ -1,0 +1,698 @@
+{
+  "Leads": [
+    {
+      "api_name": "Owner",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Company",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "First_Name",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Name",
+      "tipo": "text",
+      "requerido": true,
+      "personalizado": false
+    },
+    {
+      "api_name": "Designation",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Email",
+      "tipo": "email",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Phone",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Fax",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mobile",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Website",
+      "tipo": "website",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Lead_Source",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Lead_Status",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Industry",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "No_of_Employees",
+      "tipo": "integer",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Annual_Revenue",
+      "tipo": "currency",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Rating",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Full_Name",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Street",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "City",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "State",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Zip_Code",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Country",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Description",
+      "tipo": "textarea",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Skype_ID",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Email_Opt_Out",
+      "tipo": "boolean",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Salutation",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Secondary_Email",
+      "tipo": "email",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Activity_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Twitter",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Tag",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Record_Image",
+      "tipo": "profileimage",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Unsubscribed_Mode",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Unsubscribed_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Change_Log_Time__s",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Locked__s",
+      "tipo": "boolean",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Enriched_Time__s",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Enrich_Status__s",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    }
+  ],
+  "Contacts": [
+    {
+      "api_name": "Owner",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Lead_Source",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "First_Name",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Name",
+      "tipo": "text",
+      "requerido": true,
+      "personalizado": false
+    },
+    {
+      "api_name": "Account_Name",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Vendor_Name",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Email",
+      "tipo": "email",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Title",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Department",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Phone",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Home_Phone",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_Phone",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Fax",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mobile",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Date_of_Birth",
+      "tipo": "date",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Assistant",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Asst_Phone",
+      "tipo": "phone",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Full_Name",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mailing_Street",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_Street",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mailing_City",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_City",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mailing_State",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_State",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mailing_Zip",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_Zip",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Mailing_Country",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Other_Country",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Description",
+      "tipo": "textarea",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Email_Opt_Out",
+      "tipo": "boolean",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Skype_ID",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Salutation",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Secondary_Email",
+      "tipo": "email",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Activity_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Twitter",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Tag",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Record_Image",
+      "tipo": "profileimage",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Reporting_To",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Unsubscribed_Mode",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Unsubscribed_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Change_Log_Time__s",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Locked__s",
+      "tipo": "boolean",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Enriched_Time__s",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Enrich_Status__s",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    }
+  ],
+  "Deals": [
+    {
+      "api_name": "Owner",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Amount",
+      "tipo": "currency",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Deal_Name",
+      "tipo": "text",
+      "requerido": true,
+      "personalizado": false
+    },
+    {
+      "api_name": "Closing_Date",
+      "tipo": "date",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Account_Name",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Stage",
+      "tipo": "picklist",
+      "requerido": true,
+      "personalizado": false
+    },
+    {
+      "api_name": "Type",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Probability",
+      "tipo": "integer",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Next_Step",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Lead_Source",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Campaign_Source",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_By",
+      "tipo": "ownerlookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Created_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Modified_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Description",
+      "tipo": "textarea",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Contact_Name",
+      "tipo": "lookup",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Expected_Revenue",
+      "tipo": "currency",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Last_Activity_Time",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Lead_Conversion_Time",
+      "tipo": "integer",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Sales_Cycle_Duration",
+      "tipo": "integer",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Overall_Sales_Duration",
+      "tipo": "integer",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Tag",
+      "tipo": "text",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Change_Log_Time__s",
+      "tipo": "datetime",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Locked__s",
+      "tipo": "boolean",
+      "requerido": false,
+      "personalizado": false
+    },
+    {
+      "api_name": "Reason_For_Loss__s",
+      "tipo": "picklist",
+      "requerido": false,
+      "personalizado": false
+    }
+  ]
+}
